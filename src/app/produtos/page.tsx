@@ -1,20 +1,18 @@
-import Carrossel from "@/components/Carrossel"
+
 import CardProduto from "@/components/CardProduto"
-import produtos from "../../produtos.json"
+import produtos from "../../../produtos.json"
 
 export default function Home() {
 
-  const produtosEmDestaque = produtos.filter((produto) => produto.destaque === true);
+  const Produtos = produtos
 
   return (
     <div className="w-full min-h-screen bg-slate-50 pb-12">
-      {/* Carrossel de Banner no Topo */}
-      <Carrossel />
 
       {/* Título da Seção */}
       <div className="text-center my-10">
         <h1 className="text-3xl font-extrabold text-slate-800 tracking-tight">
-          Produtos em destaque
+          Todos os Produtos
         </h1>
         <p className="text-slate-500 mt-2">
           Confira nossa seleção de produtos para construção e reforma
@@ -26,7 +24,7 @@ export default function Home() {
       */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
 
-        {produtosEmDestaque.map((produto) => (
+        {Produtos.map((produto) => (
 
           <CardProduto
             key={produto.id}
