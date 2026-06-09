@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# João da Construção
 
-## Getting Started
+Loja virtual de produtos para construção e reforma desenvolvida com **Next.js 16**, **TypeScript** e **Tailwind CSS v4**.
 
-First, run the development server:
+## Visão geral
+
+Esta aplicação apresenta:
+
+- Página inicial com um carrossel de banners e cards de produtos em destaque.
+- Página de produtos que exibe todos os itens disponíveis.
+- Cards de produto com imagem otimizada, descrição, preço formatado em BRL e selo de destaque.
+- Layout responsivo para celular, tablet e desktop.
+
+## Tecnologias usadas
+
+- Next.js 16.2.6
+- React 19.2.4
+- TypeScript 5
+- Tailwind CSS v4
+- Radix UI
+- Embla Carousel + Autoplay
+- Lucide Icons
+- shadcn/ui
+
+## Estrutura do projeto
+
+- `src/app/page.tsx` - página inicial com produtos em destaque e carrossel.
+- `src/app/produtos/page.tsx` - página que lista todos os produtos.
+- `src/components/Carrossel.tsx` - componente de carrossel com autoplay.
+- `src/components/CardProduto.tsx` - componente de card de produto com formatação de preço.
+- `src/components/Header.tsx` - cabeçalho comum do site.
+- `src/components/Footer.tsx` - rodapé comum.
+- `produtos.json` - catálogo de produtos consumido pelas páginas.
+- `src/app/layout.tsx` - layout global da aplicação.
+
+## Como executar
+
+### Instalar dependências
+
+```bash
+npm install
+```
+
+### Rodar em modo de desenvolvimento
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra `https://joao-da-contrucao.vercel.app/` no navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Construir para produção
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+### Iniciar servidor de produção
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Executar lint
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run lint
+```
 
-## Deploy on Vercel
+## Como o projeto funciona
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- O catálogo de produtos está em `produtos.json` na raiz do projeto.
+- A página inicial filtra apenas produtos com `destaque: true`.
+- As imagens dos produtos estão em `public/produtos/`.
+- O componente `CardProduto` usa `next/image` para otimização e exibe preço em formato `BRL`.
+- O carrossel é construído com `embla-carousel-react` e possui autoplay controlado por `embla-carousel-autoplay`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Melhorias sugeridas
+
+- Adicionar navegação entre páginas com links no `Header`.
+- Implementar busca e filtros de categoria.
+- Adicionar carrinho de compras e checkout.
+- Incluir animações e interações extras para dispositivos móveis.
+
+## Observações
+
+- Este projeto usa aliases do TypeScript configurados em `tsconfig.json` para importações limpas (`@/components`, `@/lib`, etc.).
+- O layout global aplica fontes do Google (`Roboto` e `Geist`) via `next/font`.
+
+## Contato
+
+`https://github.com/jgarrudaa`

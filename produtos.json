@@ -20,8 +20,8 @@
     "title": "Colher de Aço Inox",
     "description": "Colher resistente com acabamento em aço inox.",
     "price": 30.0,
-    "imageSrc": "/produtos/Colher.png",
-    "destaque": false
+    "imageSrc": "/produtos/xxxx",
+    "destaque": true
   },
   {
     "id": 4,
