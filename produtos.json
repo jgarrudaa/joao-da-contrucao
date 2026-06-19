@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "Carrinho de Mão",
+    "categoria": "Ferramentas",
     "description": "Carrinho de mão resistente com rodas de nylon e alça ergonômica.",
     "price": 129.9,
     "imageSrc": "/produtos/Carrinho-de-mao.png",
@@ -10,6 +11,7 @@
   {
     "id": 2,
     "title": "Cimento",
+    "categoria": "Materiais de Construção",
     "description": "Cimento de alta qualidade para obras de construção.",
     "price": 24.9,
     "imageSrc": "/produtos/Cimento.png",
@@ -18,6 +20,7 @@
   {
     "id": 3,
     "title": "Colher de Aço Inox",
+    "categoria": "Ferramentas",
     "description": "Colher resistente com acabamento em aço inox.",
     "price": 30.0,
     "imageSrc": "/produtos/Colher.png",
@@ -26,6 +29,7 @@
   {
     "id": 4,
     "title": "Makita",
+    "categoria": "Ferramentas Elétricas",
     "description": "Ferramenta elétrica de alta performance para uso profissional.",
     "price": 339.9,
     "imageSrc": "/produtos/Makita.png",
@@ -34,6 +38,7 @@
   {
     "id": 5,
     "title": "Prego",
+    "categoria": "Fixação",
     "description": "Prego de alta qualidade para obras de construção.",
     "price": 21.32,
     "imageSrc": "/produtos/Prego.png",
@@ -42,6 +47,7 @@
   {
     "id": 6,
     "title": "Martelo",
+    "categoria": "Ferramentas",
     "description": "Martelo com cabo emborrachado e cabeça de aço reforçado.",
     "price": 49.9,
     "imageSrc": "/produtos/Martelo.png",
@@ -50,6 +56,7 @@
   {
     "id": 7,
     "title": "Furadeira",
+    "categoria": "Ferramentas Elétricas",
     "description": "Furadeira elétrica potente para diversos tipos de materiais.",
     "price": 249.9,
     "imageSrc": "/produtos/Furadeira.png",
@@ -58,6 +65,7 @@
   {
     "id": 8,
     "title": "Parafuso",
+    "categoria": "Fixação",
     "description": "Parafusos galvanizados resistentes à corrosão.",
     "price": 15.5,
     "imageSrc": "/produtos/Parafuso.png",
@@ -66,6 +74,7 @@
   {
     "id": 9,
     "title": "Chave de Fenda",
+    "categoria": "Ferramentas",
     "description": "Chave de fenda com cabo anatômico.",
     "price": 18.9,
     "imageSrc": "/produtos/Chave-de-Fenda.png",
@@ -74,6 +83,7 @@
   {
     "id": 10,
     "title": "Serra Circular",
+    "categoria": "Ferramentas Elétricas",
     "description": "Serra circular profissional para cortes precisos.",
     "price": 459.9,
     "imageSrc": "/produtos/Serra-Circular.png",
@@ -82,6 +92,7 @@
   {
     "id": 11,
     "title": "Escada Alumínio",
+    "categoria": "Equipamentos",
     "description": "Escada dobrável de alumínio leve e resistente.",
     "price": 199.9,
     "imageSrc": "/produtos/Escada.png",
@@ -90,6 +101,7 @@
   {
     "id": 12,
     "title": "Capacete de Segurança",
+    "categoria": "Segurança",
     "description": "Capacete resistente para proteção em obras.",
     "price": 35.0,
     "imageSrc": "/produtos/Capacete.png",
@@ -98,6 +110,7 @@
   {
     "id": 13,
     "title": "Luva de Proteção",
+    "categoria": "Segurança",
     "description": "Luva reforçada para trabalhos pesados.",
     "price": 12.9,
     "imageSrc": "/produtos/Luva.png",
@@ -106,6 +119,7 @@
   {
     "id": 14,
     "title": "Broca para Concreto",
+    "categoria": "Ferramentas",
     "description": "Broca resistente para perfuração em concreto.",
     "price": 22.9,
     "imageSrc": "/produtos/Broca.png",
@@ -114,6 +128,7 @@
   {
     "id": 15,
     "title": "Trena 5m",
+    "categoria": "Ferramentas",
     "description": "Trena compacta e resistente para medições.",
     "price": 19.9,
     "imageSrc": "/produtos/Trena.png",
@@ -122,6 +137,7 @@
   {
     "id": 16,
     "title": "Alicate Universal",
+    "categoria": "Ferramentas",
     "description": "Alicate multiuso para manutenção e construção.",
     "price": 39.9,
     "imageSrc": "/produtos/Alicate.png",
@@ -130,6 +146,7 @@
   {
     "id": 17,
     "title": "Chave Inglesa",
+    "categoria": "Ferramentas",
     "description": "Chave ajustável para diversos tamanhos de porcas.",
     "price": 42.0,
     "imageSrc": "/produtos/Chave-Inglesa.png",
@@ -138,6 +155,7 @@
   {
     "id": 18,
     "title": "Disco de Corte",
+    "categoria": "Ferramentas",
     "description": "Disco resistente para cortes em metal e concreto.",
     "price": 14.5,
     "imageSrc": "/produtos/Disco-Corte.png",
@@ -146,6 +164,7 @@
   {
     "id": 19,
     "title": "Pá de Construção",
+    "categoria": "Ferramentas",
     "description": "Pá reforçada com cabo de madeira.",
     "price": 54.9,
     "imageSrc": "/produtos/Pa.png",
@@ -154,6 +173,7 @@
   {
     "id": 20,
     "title": "Enxada",
+    "categoria": "Ferramentas",
     "description": "Enxada resistente para preparação de terreno.",
     "price": 47.9,
     "imageSrc": "/produtos/Enxada.png",
@@ -162,6 +182,7 @@
   {
     "id": 21,
     "title": "Betoneira",
+    "categoria": "Equipamentos",
     "description": "Betoneira elétrica para mistura de concreto.",
     "price": 1899.9,
     "imageSrc": "/produtos/Betoneira.png",
@@ -170,6 +191,7 @@
   {
     "id": 22,
     "title": "Tijolo Cerâmico",
+    "categoria": "Materiais de Construção",
     "description": "Tijolo resistente para construção de paredes.",
     "price": 1.2,
     "imageSrc": "/produtos/Tijolo.png",
@@ -178,6 +200,7 @@
   {
     "id": 23,
     "title": "Areia Média",
+    "categoria": "Materiais de Construção",
     "description": "Areia ideal para reboco e concreto.",
     "price": 89.9,
     "imageSrc": "/produtos/Areia.png",
@@ -186,6 +209,7 @@
   {
     "id": 24,
     "title": "Brita",
+    "categoria": "Materiais de Construção",
     "description": "Brita de qualidade para obras e fundações.",
     "price": 95.0,
     "imageSrc": "/produtos/Brita.png",
@@ -194,6 +218,7 @@
   {
     "id": 25,
     "title": "Argamassa",
+    "categoria": "Materiais de Construção",
     "description": "Argamassa pronta para assentamento de pisos.",
     "price": 32.9,
     "imageSrc": "/produtos/Argamassa.png",
@@ -202,6 +227,7 @@
   {
     "id": 26,
     "title": "Nível a Laser",
+    "categoria": "Ferramentas Elétricas",
     "description": "Ferramenta de precisão para nivelamento.",
     "price": 289.9,
     "imageSrc": "/produtos/Nivel-Laser.png",
@@ -210,6 +236,7 @@
   {
     "id": 27,
     "title": "Serrote",
+    "categoria": "Ferramentas",
     "description": "Serrote afiado para cortes em madeira.",
     "price": 34.9,
     "imageSrc": "/produtos/Serrote.png",
@@ -218,6 +245,7 @@
   {
     "id": 28,
     "title": "Pincel de Pintura",
+    "categoria": "Pintura",
     "description": "Pincel profissional para acabamento.",
     "price": 11.9,
     "imageSrc": "/produtos/Pincel.png",
@@ -226,6 +254,7 @@
   {
     "id": 29,
     "title": "Rolo de Pintura",
+    "categoria": "Pintura",
     "description": "Rolo macio para pintura uniforme.",
     "price": 17.9,
     "imageSrc": "/produtos/Rolo.png",
@@ -234,6 +263,7 @@
   {
     "id": 30,
     "title": "Tinta Acrílica",
+    "categoria": "Pintura",
     "description": "Tinta resistente para ambientes internos e externos.",
     "price": 129.9,
     "imageSrc": "/produtos/Tinta.png",
@@ -242,6 +272,7 @@
   {
     "id": 31,
     "title": "Caixa de Ferramentas",
+    "categoria": "Ferramentas",
     "description": "Caixa organizadora com compartimentos.",
     "price": 79.9,
     "imageSrc": "/produtos/Caixa-Ferramentas.png",
@@ -250,6 +281,7 @@
   {
     "id": 32,
     "title": "Marreta",
+    "categoria": "Ferramentas",
     "description": "Marreta reforçada para demolição.",
     "price": 69.9,
     "imageSrc": "/produtos/Marreta.png",
@@ -258,6 +290,7 @@
   {
     "id": 33,
     "title": "Lixadeira",
+    "categoria": "Ferramentas Elétricas",
     "description": "Lixadeira elétrica para acabamentos profissionais.",
     "price": 279.9,
     "imageSrc": "/produtos/Lixadeira.png",
@@ -266,6 +299,7 @@
   {
     "id": 34,
     "title": "Fita Isolante",
+    "categoria": "Elétrica",
     "description": "Fita resistente para instalações elétricas.",
     "price": 8.9,
     "imageSrc": "/produtos/Fita-Isolante.png",
@@ -274,6 +308,7 @@
   {
     "id": 35,
     "title": "Tomada Elétrica",
+    "categoria": "Elétrica",
     "description": "Tomada padrão com acabamento moderno.",
     "price": 14.9,
     "imageSrc": "/produtos/Tomada.png",
@@ -282,6 +317,7 @@
   {
     "id": 36,
     "title": "Interruptor",
+    "categoria": "Elétrica",
     "description": "Interruptor simples para instalações elétricas.",
     "price": 12.9,
     "imageSrc": "/produtos/Interruptor.png",
@@ -290,6 +326,7 @@
   {
     "id": 37,
     "title": "Cano PVC",
+    "categoria": "Hidráulica",
     "description": "Cano resistente para instalações hidráulicas.",
     "price": 39.9,
     "imageSrc": "/produtos/Cano-PVC.png",
@@ -298,6 +335,7 @@
   {
     "id": 38,
     "title": "Joelho PVC",
+    "categoria": "Hidráulica",
     "description": "Conexão em PVC para encanamentos.",
     "price": 6.5,
     "imageSrc": "/produtos/Joelho-PVC.png",
@@ -306,6 +344,7 @@
   {
     "id": 39,
     "title": "Caixa d'Água",
+    "categoria": "Hidráulica",
     "description": "Caixa d'água resistente com grande capacidade.",
     "price": 599.9,
     "imageSrc": "/produtos/Caixa-Agua.png",
@@ -314,6 +353,7 @@
   {
     "id": 40,
     "title": "Porta de Madeira",
+    "categoria": "Acabamento",
     "description": "Porta de madeira maciça para interiores.",
     "price": 349.9,
     "imageSrc": "/produtos/Porta.png",
@@ -322,6 +362,7 @@
   {
     "id": 41,
     "title": "Janela de Alumínio",
+    "categoria": "Acabamento",
     "description": "Janela moderna e resistente à corrosão.",
     "price": 429.9,
     "imageSrc": "/produtos/Janela.png",
@@ -330,6 +371,7 @@
   {
     "id": 42,
     "title": "Piso Cerâmico",
+    "categoria": "Acabamento",
     "description": "Piso cerâmico elegante e durável.",
     "price": 49.9,
     "imageSrc": "/produtos/Piso.png",
@@ -338,6 +380,7 @@
   {
     "id": 43,
     "title": "Azulejo",
+    "categoria": "Acabamento",
     "description": "Azulejo decorativo para paredes.",
     "price": 39.9,
     "imageSrc": "/produtos/Azulejo.png",
@@ -346,6 +389,7 @@
   {
     "id": 44,
     "title": "Torneira",
+    "categoria": "Hidráulica",
     "description": "Torneira cromada com design moderno.",
     "price": 89.9,
     "imageSrc": "/produtos/Torneira.png",
@@ -354,6 +398,7 @@
   {
     "id": 45,
     "title": "Vaso Sanitário",
+    "categoria": "Hidráulica",
     "description": "Vaso sanitário com acabamento premium.",
     "price": 499.9,
     "imageSrc": "/produtos/Vaso-Sanitario.png",
@@ -362,6 +407,7 @@
   {
     "id": 46,
     "title": "Chuveiro Elétrico",
+    "categoria": "Elétrica",
     "description": "Chuveiro potente com controle de temperatura.",
     "price": 149.9,
     "imageSrc": "/produtos/Chuveiro.png",
@@ -370,6 +416,7 @@
   {
     "id": 47,
     "title": "Fechadura",
+    "categoria": "Acabamento",
     "description": "Fechadura resistente para portas.",
     "price": 59.9,
     "imageSrc": "/produtos/Fechadura.png",
@@ -378,6 +425,7 @@
   {
     "id": 48,
     "title": "Telha Colonial",
+    "categoria": "Materiais de Construção",
     "description": "Telha resistente para cobertura de casas.",
     "price": 5.9,
     "imageSrc": "/produtos/Telha.png",
@@ -386,6 +434,7 @@
   {
     "id": 49,
     "title": "Impermeabilizante",
+    "categoria": "Materiais de Construção",
     "description": "Produto para proteção contra infiltrações.",
     "price": 119.9,
     "imageSrc": "/produtos/Impermeabilizante.png",
@@ -394,6 +443,7 @@
   {
     "id": 50,
     "title": "Massa Corrida",
+    "categoria": "Pintura",
     "description": "Massa corrida para acabamento de paredes.",
     "price": 44.9,
     "imageSrc": "/produtos/Massa-Corrida.png",
