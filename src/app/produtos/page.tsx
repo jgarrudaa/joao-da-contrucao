@@ -1,44 +1,42 @@
+import CardProduto from "@/components/CardProduto";
+import products from "../../../produtos.json";
 
-import CardProduto from "@/components/CardProduto"
-import produtos from "../../../produtos.json"
-
-export default function Home() {
-
-  const Produtos = produtos
-
+export default function Produtos() {
   return (
-    <div className="w-full min-h-screen bg-slate-50 pb-12">
+    // Substituído o padding lateral estático 'px-36' por um padding dinâmico e fluido
+    <div className="w-full min-h-screen bg-slate-50 py-12 px-4 sm:px-6 lg:px-36">
 
-      {/* Título da Seção */}
-      <div className="text-center my-10">
-        <h1 className="text-3xl font-extrabold text-slate-800 tracking-tight">
-          Todos os Produtos
-        </h1>
-        <p className="text-slate-500 mt-2">
-          Confira nossa seleção de produtos para construção e reforma
-        </p>
-      </div>
+      {/* Container de largura máxima para centralização e alinhamento em telas amplas */}
+      <div className="max-w-7xl mx-auto">
 
-      {/* Grid Responsivo para os Cards:
-          1 coluna no celular | 2 colunas no tablet | 3 colunas em telas grandes
-      */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-4">
+        {/* Cabeçalho da Seção de Produtos */}
+        <header className="mb-10 text-center md:text-left">
+          <h1 className="text-3xl font-extrabold text-slate-900 mb-3 tracking-tight">
+            Produtos João da Construção
+          </h1>
+          <p className="max-w-2xl text-slate-600 mx-auto md:mx-0">
+            Explore nossa ampla variedade de materiais de construção, ferramentas e acessórios para sua obra ou reforma. Qualidade e preço justo para todos os seus projetos.
+          </p>
+        </header>
 
-        {Produtos.map((produto) => (
-
-          <CardProduto
-            key={produto.id}
-            id={produto.id}
-            title={produto.title}
-            description={produto.description}
-            price={produto.price}
-            imageSrc={produto.imageSrc}
-            destaque={produto.destaque}
-          />
-
-        ))}
+        {/* Grade de Produtos Responsiva com Tailwind Grid */}
+        <section className="w-full">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center">
+            {products.map((product) => (
+              <CardProduto
+                key={product.id}
+                id={product.id}
+                title={product.title}
+                description={product.description}
+                price={product.price}
+                imageSrc={product.imageSrc}
+                destaque={product.destaque}
+              />
+            ))}
+          </div>
+        </section>
 
       </div>
     </div>
-  )
+  );
 }

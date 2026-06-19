@@ -1,11 +1,17 @@
+import Link from "next/link";
+import Image from "next/image";
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full bg-white border-t border-slate-200 px-36 py-8 flex flex-col gap-6">
-      <div className="flex justify-between items-center text-xs text-zinc-700">
+    <footer className="w-full bg-white border-t border-slate-200 py-8 px-4 sm:px-6 lg:px-36">
+      {/* Container Principal com alinhamento responsivo:
+          Empilhado verticalmente no celular e alinhado horizontalmente em telas amplas
+      */}
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400 text-center md:text-left">
         <p>&copy; {currentYear} João da Construção. Todos os direitos reservados.</p>
-        <p className="text-orange-600">O melhor da construção para construir os seus sonhos.</p>
+        <p className="text-slate-300">Os melhores materiais para a sua construção.</p>
       </div>
     </footer>
   );

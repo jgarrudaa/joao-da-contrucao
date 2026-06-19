@@ -31,11 +31,11 @@ export default function CardProduto({
   destaque
 }: CardProdutoProps) {
 
-  const [imgSrc, setImgSrc] = useState<string>(imageSrc || "/produtos/placeholder.png");
+  const [imgSrc, setImgSrc] = useState<string>(imageSrc || "/produtos/Placeholder.png");
 
   // Sincronização com alterações da propriedade externa
   useEffect(() => {
-    setImgSrc(imageSrc || "/produtos/placeholder.png");
+    setImgSrc(imageSrc || "/produtos/Placeholder.png");
   }, [imageSrc]);
 
 
@@ -62,7 +62,7 @@ export default function CardProduto({
           fill
           className="object-contain p-2"
           sizes="(max-width: 768px) 100vw, 384px"
-          onError={() => setImgSrc("/produtos/placeholder.png")}
+          onError={() => setImgSrc("/produtos/Placeholder.png")}
         />
       </div>
 
